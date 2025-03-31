@@ -43,3 +43,11 @@ console.log(numeros);
 
 //EJERCICIO 8
 
+const mayores = numeros.filter((numeros) => numeros > 3);
+console.log(mayores);
+
+//EJERCICIO 9
+
+
+const duplicados = numeros.filter((numeros) => numeros.Count);
+console.log(duplicados);
