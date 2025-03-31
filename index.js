@@ -49,5 +49,8 @@ console.log(mayores);
 //EJERCICIO 9
 
 
-const duplicados = numeros.filter((numeros) => numeros.Count);
-console.log(duplicados);
+const duplicados = (numeros, valor) => {
+    return numeros.filter((elemento) => elemento === valor).length;
+  };
+  
+  console.log(duplicados(numeros, 2));
